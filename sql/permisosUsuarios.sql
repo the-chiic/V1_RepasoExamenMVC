@@ -21,4 +21,4 @@ GRANT ALL PRIVILEGES ON deportes.* TO 'admin'@'localhost';
 GRANT SELECT, UPDATE, DELETE ON deportes.* TO 'editor'@'localhost';
 
 -- Usuario usuario: El usuario de cualquiera que entre a la web tiene los permisos suficientes para ver la web y para inscribirse.
-GRANT SELECT ON deportes.* TO 'usuario'@'localhost';
+GRANT SELECT, UPDATE ON deportes.* TO 'usuario'@'localhost';
