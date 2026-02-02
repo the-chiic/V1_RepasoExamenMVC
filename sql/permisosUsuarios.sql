@@ -15,4 +15,4 @@ CREATE USER 'usuario'@'localhost' IDENTIFIED BY 'usuario123';
 GRANT ALL PRIVILEGES ON deportes.* TO 'admin'@'localhost';
 
 -- Usuario 'usuario': El usuario de cualquiera que entre a la web tiene los permisos suficientes para ver la web y para inscribirse.
-GRANT SELECT, UPDATE ON deportes.* TO 'usuario'@'localhost';
+GRANT SELECT, INSERT ON deportes.* TO 'usuario'@'localhost';
